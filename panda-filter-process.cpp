@@ -90,4 +90,3 @@ set_current_proc_name(CPUState* cpu) {
   }
   current_proc_name = std::string(cp->name);
 }
-//#endif  // #if defined(TARGET_I386) #elif defined(TARGET_ARM)

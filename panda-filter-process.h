@@ -45,7 +45,7 @@ init_plugin(void *);
 
 void
 uninit_plugin(void *);
-}  // extern "C"
+}
 
 #define MAX_FILENAME_LEN 40
 
@@ -63,7 +63,4 @@ current_proc_name;
 
 std::list<std::string>
 proc_names;
-//#endif  // #if defined(TARGET_I386) #elif defined(TARGET_ARM)
-
-//#endif  // define __PANDA-ITAINT__
 #endif
